@@ -69,8 +69,8 @@ sed -i 's/^.*rpc-password.*/"rpc-password": "'$(echo $password)'",/' /var/lib/tr
 sed -i 's/^.*rpc-port.*/"rpc-port": '$(echo $port)',/' /var/lib/transmission-daemon/info/settings.json
 /etc/init.d/transmission-daemon start
 
-mkdir -p /home/transmission/Downloads/
-chmod -R 777 /home/transmission/Downloads/
+mkdir -p /mnt/transmission/Downloads/
+chmod -R 777 /mnt/transmission/Downloads/
 
 # END
 clear
