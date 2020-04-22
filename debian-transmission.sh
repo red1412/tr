@@ -62,7 +62,8 @@ fi
 # SETTINGS.JSON
 /etc/init.d/transmission-daemon stop
 # wget http://dadi.me/wp-content/uploads/dir/Transmission/settings.json
-wget https://raw.githubusercontent.com/qnmlgdsb/tr/master/settings.json
+# wget https://raw.githubusercontent.com/qnmlgdsb/tr/master/settings.json
+wget https://github.com/red1412/tr/raw/master/settings.json
 mv -f settings.json /var/lib/transmission-daemon/info/
 sed -i 's/^.*rpc-username.*/"rpc-username": "'$(echo $username)'",/' /var/lib/transmission-daemon/info/settings.json
 sed -i 's/^.*rpc-password.*/"rpc-password": "'$(echo $password)'",/' /var/lib/transmission-daemon/info/settings.json
