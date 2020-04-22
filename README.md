@@ -1,7 +1,7 @@
 #Transmission | Debian 安装
 
 
-wget --no-check-certificate https://raw.githubusercontent.com/qnmlgdsb/tr/master/debian-transmission.sh
+wget --no-check-certificate https://github.com/red1412/tr/raw/master/debian-transmission.sh
 
 sh debian-transmission.sh
 要最新版本输入lestest
