@@ -10,3 +10,5 @@ sh debian-transmission.sh
 任意键继续完成安装
 
 账号密码默认都是qnmlgdsb
+默认下载路径/mnt/transmission/Downloads
+可以将硬盘挂载在这个路径下
