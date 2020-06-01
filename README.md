@@ -15,8 +15,8 @@ sh debian-transmission.sh
 
 Installing qBittorrent
 
-https://www.qbittorrent.org/download.php
+*https://www.qbittorrent.org/download.php
 
 
-sudo apt-get install qbittorrent-nox
-qbittorrent-nox --webui-port=8081 -d
+*sudo apt-get install qbittorrent-nox
+*qbittorrent-nox --webui-port=8081 -d
